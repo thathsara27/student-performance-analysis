@@ -19,11 +19,11 @@ A data analysis project exploring factors that affect student exam performance.
 
 ## Project Structure
 Student Performance Factors/
-├── data/ # Raw and cleaned datasets
-├── scripts/ # Python scripts for cleaning and loading
-├── sql/ # SQL analysis queries
-├── visualizations/ # Charts and visualization scripts
-├── models/ # Prediction model 
+├── data/                         # Raw and cleaned datasets
+├── scripts/                      # Python scripts for cleaning and loading
+├── sql/                          # SQL analysis queries
+├── visualizations/               # Charts and visualization scripts
+├── models/                       # Prediction model
 └── README.md
 
 ## Key Findings
