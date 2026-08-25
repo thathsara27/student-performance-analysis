@@ -3,8 +3,7 @@
 A data analysis project exploring factors that affect student exam performance.
 
 ## Technologies Used
-- Python
-- Pandas
+- Python (Pandas, Matplotlib, Seaborn, Scikit-learn)
 - MySQL
 - Power BI
 
@@ -19,12 +18,22 @@ A data analysis project exploring factors that affect student exam performance.
 - Gender and demographic analysis
 
 ## Project Structure
-- `explore.py` - Initial data exploration
-- `clean.py` - Data cleaning (null handling, outlier removal)
-- `load_to_mysql.py` - Load cleaned data into MySQL
-- `connect_mysql.py` - MySQL connection setup
+Student Performance Factors/
+├── data/ # Raw and cleaned datasets
+├── scripts/ # Python scripts for cleaning and loading
+├── sql/ # SQL analysis queries
+├── visualizations/ # Charts and visualization scripts
+├── models/ # Prediction model 
+└── README.md
+
+## Key Findings
+- Attendance has the strongest correlation with exam score (r = 0.58)
+- Study hours is the second strongest factor (r = 0.45)
+- Gender has virtually no effect on exam performance
+- Higher parental involvement leads to slightly better scores
 
 ## Setup Instructions
-1. Install dependencies: `pip install pandas sqlalchemy mysql-connector-python`
-2. Run `clean.py` to generate the cleaned dataset
-3. Run `load_to_mysql.py` to load data into MySQL
+1. Install dependencies: `pip install pandas sqlalchemy mysql-connector-python matplotlib seaborn scikit-learn`
+2. Run `scripts/clean.py` to generate the cleaned dataset
+3. Run `scripts/load_to_mysql.py` to load data into MySQL
+4. Run `visualizations/visualize.py` to generate charts
