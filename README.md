@@ -18,6 +18,7 @@ A data analysis project exploring factors that affect student exam performance.
 - Gender and demographic analysis
 
 ## Project Structure
+```
 Student Performance Factors/
 ├── data/                         # Raw and cleaned datasets
 ├── scripts/                      # Python scripts for cleaning and loading
@@ -25,6 +26,7 @@ Student Performance Factors/
 ├── visualizations/               # Charts and visualization scripts
 ├── models/                       # Prediction model
 └── README.md
+```
 
 ## Key Findings
 - Attendance has the strongest correlation with exam score (r = 0.58)
